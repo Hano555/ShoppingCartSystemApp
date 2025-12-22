@@ -1,20 +1,25 @@
 ﻿using ShoppingCartSystem;
 
+
+
 ShoppingCart myCart = new();
+
+myCart.LoadFromFile();
+
 bool startcart = true;
 
-
+Console.Clear();
 Console.WriteLine("\nWelcome to Shopping Cart System");
 Console.WriteLine("Available commands: [add, check, remove, clear, exit]");
 
 while (startcart)
 {
-
     Console.Write("\n> ");
     string input = Console.ReadLine()?.ToLower().Trim() ?? "";
 
     if (input == "exit" || input == "done")
     {
+        myCart.SaveToFile();
         startcart = false;
         Console.WriteLine("Goodbye!");
     }
@@ -45,16 +50,3 @@ while (startcart)
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

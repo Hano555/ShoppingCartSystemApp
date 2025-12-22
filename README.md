@@ -40,7 +40,7 @@ A modular, command-line shopping cart application built with C# and .NET, focusi
 ## 🗺️ Roadmap
 - [x] Basic CRUD functionality (Add/Remove/Check)
 - [x] Object-Oriented Refactoring (ShoppingCart Class)
-- [ ] Data Persistence (JSON Saving/Loading)
+- [x] Data Persistence (JSON Saving/Loading)
 - [ ] Receipt Generation (.txt file export)
 - [ ] Sales Tax & Discount Code Logic
 - [ ] Unit Testing for Business Logic
