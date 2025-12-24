@@ -103,7 +103,6 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
-
 # Chutzpah Test files
 _Chutzpah*
 
@@ -482,3 +481,10 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+
+#Ignore generated shopping cart data
+shoppingcart.json
+
+#Ignore receipts folder
+Receipts/
