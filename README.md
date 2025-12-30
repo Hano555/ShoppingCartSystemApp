@@ -20,6 +20,7 @@ A modular, command-line shopping cart application built with C# and .NET, focusi
 - Developed a "Flat Loop" menu system allowing direct commands:
   - `add`: Enter the multi-step product creation flow.
   - `check`: View an alphabetized, formatted receipt.
+  - `print` : View a generated receipt of the cart.
   - `remove [index]`: Targeted removal of items using string splitting and index parsing.
   - `clear`: Wipe the cart with a safety confirmation prompt.
   - `exit/done`: Graceful program termination.
@@ -42,5 +43,3 @@ A modular, command-line shopping cart application built with C# and .NET, focusi
 - [x] Object-Oriented Refactoring (ShoppingCart Class)
 - [x] Data Persistence (JSON Saving/Loading)
 - [x] Receipt Generation (.txt file export)
-- [ ] Sales Tax & Discount Code Logic
-- [ ] Unit Testing for Business Logic
